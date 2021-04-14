@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 75px;
+    background-color: #7E6676;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+.logo img{
+    height: 100px;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+nav{
+    padding-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#oro{
+    background-color: #333232;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parte1{
+    padding-top: 80px;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.parte1I, .parte1D{
+    color: white;
+    width: 50%;
+    
+}
+
+.parte1I{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.parte1I h1{
+    font-size: 35px;
+}
+
+.parte1I p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.parte1D img{
+    margin-top: 80px;
+    margin-left: 70px;
+    width: 85%;
+}
+
+.parte2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apuntate{
+    /* border: 1px solid white; */
+    border-radius: 1em;
+    padding: 0.5em 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.apuntate form{
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.apuntate form input{
+    border: 3px solid black;
+    text-align: center;
+    width: 250px;
+    height: 2.2em;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: thistle;
+}
+
+.apuntate form input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+#boton{
+    color: black;
+    font-weight: bold;
+    height: 2.5em;
+    width: 255px;
+    border-radius: 5px;
+    background-color: rgb(133, 91, 133);
+}
+
+
+/******SECTION 2******/
+#section2{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    padding-top: 150px;
+}
+
+.cajas{
+    display: inline-block;
+    width: 30%;
+    /* height: 250px; */
+    border: 3px solid thistle;
+    margin: 15px;
+}
+
+.cajas img{
+    border: 3px solid thistle;
+    /* border-radius: 5px; */
+    width: 99%;
+    height: 80%;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 1em;
+}
+
+/********* SECTION 3*******/
+
+#contacto{
+    padding-top: 150px;
+    width: 100%;
+    height: 1000vh;
+    background-color: #333;
+}
+
+.formulario{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formulario input{
+    padding:10px;
+    /* text-align: center; */
+    width: 30%;
+    margin: 5px;
+    background-color: thistle;
+   
+}
+
+.botones{
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+}
+
+.botones input{
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(133, 91, 133);
+}
