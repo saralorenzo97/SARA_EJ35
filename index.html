@@ -31,9 +31,9 @@
                     <p>Bono-Copa; música en vivo, zona VIP, pack botellón, hielo no-Stop</p>
                     
                     <div class="apuntate">
-                        <form action="" method="get" >
-                            <input type="text" name="" id="" placeholder="Nombre">
-                            <input type="text" name="" id="" placeholder="Whatsapp">
+                        <form action="http:/192.168.1.128/blog/suscribir.php" method="get" >
+                            <input type="text" name="nombre" id="" placeholder="Nombre">
+                            <input type="email" name="email" id="" placeholder="Correo">
                             <input type="submit" value="Me apunto" id="boton">
                         </form>
                     </div>
@@ -52,24 +52,27 @@
                 <img src="IMG/foto1.jpg" alt="">
                 
                 <div class="texto">
-                    <p>CONCIERTO 1</p>
-                    <input type="button" value="Comprar entrada">
+                    <h3>CONCIERTO 1</h3>
+                    <p>Ven al concierto, te va a encantar</p>
+                    <input type="button" value="Comprar entrada" class="button">
                 </div>
             </div>
             <div class="cajas">
                 <img src="IMG/foto2.jpg" alt="">
 
                 <div class="texto">
-                    <p>CONCIERTO 2</p>
-                    <input type="button" value="Comprar entrada">
+                    <h3>CONCIERTO 2</h3>
+                    <p>Ven al concierto, te va a encantar</p>
+                    <input type="button" value="Comprar entrada" class="button">
                 </div>
             </div>
             <div class="cajas">
                 <img src="IMG/foto3.jpg" alt="">
 
                 <div class="texto">
-                    <p>CONCIERTO 3</p>
-                    <input type="button" value="Comprar entrada">
+                    <h3>CONCIERTO 3</h3>
+                    <p>Ven al concierto, te va a encantar</p>
+                    <input type="button" value="Comprar entrada" class="button">
                 </div>
             </div>
 
@@ -77,24 +80,27 @@
                 <img src="IMG/foto4.jpg" alt="">
                     
                 <div class="texto">
-                    <p>CONCIERTO 4</p>
-                    <input type="button" value="Comprar entrada">
+                    <h3>CONCIERTO 4</h3>
+                    <p>Ven al concierto, te va a encantar</p>
+                    <input type="button" value="Comprar entrada" class="button">
                 </div>
             </div>
             <div class="cajas">
                 <img src="IMG/foto5.jpg" alt="">
                     
                 <div class="texto">
-                    <p>CONCIERTO 5</p>
-                    <input type="button" value="Comprar entrada">
+                    <h3>CONCIERTO 5</h3>
+                    <p>Ven al concierto, te va a encantar</p>
+                    <input type="button" value="Comprar entrada" class="button">
                 </div>
             </div>
             <div class="cajas">
                 <img src="IMG/foto6.jpg" alt="">
                     
                     <div class="texto">
-                        <p>CONCIERTO 6</p>
-                        <input type="button" value="Comprar entrada">
+                        <h3>CONCIERTO 6</h3>
+                        <p>Ven al concierto, te va a encantar</p>
+                        <input type="button" value="Comprar entrada" class="button">
                     </div>
             </div>
         </div>
@@ -102,11 +108,12 @@
     
     <section id="contacto">
         <h1></h1>
-        <form action="" method="get">
+        <form action="http:/192.168.1.128/blog/asunto.php" method="post">
             <div class="formulario">
-                <input type="text" name="" id="" placeholder="NOMBRE COMPLETO" required><span class="rojo">*</span>
-                <input type="email" name="" id="" placeholder="abcdefghij@abcdef.com" required><span class="rojo2">*</span>
+                <input type="text" name="nombre" id="" placeholder="NOMBRE COMPLETO" required><span class="rojo">*</span>
+                <input type="email" name="email" id="" placeholder="correo@correo.com" required><span class="rojo2">*</span>
                 <input type="text" name="" id="" placeholder="TELÉFONO" required><span class="rojo3">*</span>
+                <textarea name="asunto" cols="30" rows="10" placeholder="En qué podemos ayudarle"></textarea>
             </div>
 
             <div class="botones">

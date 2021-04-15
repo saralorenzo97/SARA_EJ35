@@ -130,13 +130,13 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .cajas{
     display: inline-block;
     width: 30%;
-    /* height: 250px; */
+    height: 350px;
     border: 3px solid thistle;
     margin: 15px;
 }
@@ -145,7 +145,7 @@ nav a{
     border: 3px solid thistle;
     /* border-radius: 5px; */
     width: 99%;
-    height: 80%;
+    height: 75%;
 }
 
 .texto{
@@ -156,10 +156,17 @@ nav a{
     font-size: 1em;
 }
 
+.button{
+    background-color: thistle;
+    padding: 3px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
 /********* SECTION 3*******/
 
 #contacto{
-    padding-top: 150px;
+    padding-top: 100px;
     width: 100%;
     height: 80vh;
     background-color: #333;
@@ -167,7 +174,7 @@ nav a{
 }
 
 .formulario{
-    margin-top: 140px;
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,6 +187,19 @@ nav a{
     width: 30%;
     margin: 5px;
     background-color: thistle;
+}
+
+.formulario textarea{
+    padding:10px;
+    /* text-align: center; */
+    width: 30%;
+    margin: 5px;
+    background-color: thistle;
+}
+
+.formulario textarea::placeholder{
+    color: black;
+    font-weight: bold;
 }
 
 .formulario input::placeholder{
